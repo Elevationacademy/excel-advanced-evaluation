@@ -1,0 +1,12 @@
+{
+    "name": "excel-advanced-evaluation",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "tests:pre": "pip3 install -r .hg/requirements.txt",
+      "tests": "cd .hg && pytest --json=test-results.json; mv test-results.json .."
+    },
+    "tests": {
+      "repoName": "python-activity-checks"
+    }
+}
