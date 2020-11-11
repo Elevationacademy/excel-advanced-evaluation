@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
       "tests:pre": "pip3 install -r .hg/requirements.txt",
-      "pytest --json-report --json-report-file test-results.json -v .hg || true"
+      "tests": "pytest --json-report --json-report-file test-results.json -v .hg || true"
     },
     "tests": {
       "repoName": "python-activity-checks"
